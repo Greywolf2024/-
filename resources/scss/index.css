@@ -22,6 +22,10 @@ img {
   box-sizing: content-box;
 }
 
+p {
+  font-size: 14px;
+}
+
 .event-btn {
   position: fixed;
   z-index: 99;
@@ -315,6 +319,7 @@ img {
   background: linear-gradient(to top, #35d7e5 0%, #3167f0 100%);
   color: white;
   text-align: center;
+  font-weight: bolder;
 }
 .bottom-container .promo-container .promo-banner-wrapper::after {
   content: "";
@@ -438,7 +443,8 @@ img {
     width: 14%;
   }
   .content-wrapper .title-wrapper .title {
-    width: 40%;
+    width: 30%;
+    font-size: 16px;
   }
   .content-wrapper .content-img-wrapper {
     height: 350px;
@@ -456,8 +462,8 @@ img {
     top: 35%;
   }
   .content-wrapper .content-img-wrapper .banner:nth-of-type(1) {
-    height: 35%;
-    left: -5%;
+    height: 30%;
+    left: 5%;
     bottom: 20%;
   }
   .bottom-container .promo-container {
