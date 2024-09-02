@@ -150,7 +150,7 @@ p {
   justify-content: center;
   gap: 20px;
   position: absolute;
-  bottom: -65%;
+  bottom: -55%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
@@ -428,11 +428,11 @@ p {
     right: 10px;
   }
   .slider-wrapper {
-    height: 110vw;
+    height: 90vw;
     overflow: hidden;
   }
   .slider-wrapper .slide-content-wrapper {
-    height: 23vw;
+    height: 25vw;
   }
   .slider-wrapper .slider-image-wrapper .element:nth-child(2),
   .slider-wrapper .slider-image-wrapper .model:nth-child(2) {
@@ -472,7 +472,6 @@ p {
   }
   .slider-wrapper .slide-content-wrapper .button-wrapper button i {
     font-size: 1.2em;
-    margin: 3px;
   }
   .content-wrapper .content-img-wrapper {
     height: 350px;

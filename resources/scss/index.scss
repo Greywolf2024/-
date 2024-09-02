@@ -163,7 +163,7 @@ z-index: 20;
             justify-content: center;
             gap: 20px;
             position: absolute;
-            bottom: -65%;
+            bottom: -55%;
             left: 50%;
             transform: translateX(-50%);
             z-index: 10;
@@ -519,13 +519,12 @@ position: relative;
     }
 
     .slider-wrapper {
-        height: 110vw;
+        height: 90vw;
         overflow: hidden;
-        // background-color: red;
     }
 
     .slider-wrapper .slide-content-wrapper {
-        height: 23vw;
+        height: 25vw;
     }
 
     .slider-wrapper .slider-image-wrapper .element:nth-child(2),
@@ -573,7 +572,7 @@ position: relative;
     }
     .slider-wrapper .slide-content-wrapper .button-wrapper button i{
         font-size: 1.2em;
-        margin: 3px;
+        // margin: 3px;
     }
 
     .content-wrapper .content-img-wrapper {
