@@ -487,8 +487,24 @@ position: relative;
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .slider-wrapper .slider-image-wrapper{
+        width: 75%;
+    }
 
-@media only screen and (max-width: 500px) {
+    .content-wrapper .content-img-wrapper{
+        height: 420px;
+    }
+
+    .content-wrapper .content-img-wrapper .content-bg{
+        width: 70%;
+        left: 50%;
+        opacity: .8;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
     .logo {
         margin: auto;
     }
@@ -503,13 +519,13 @@ position: relative;
     }
 
     .slider-wrapper {
-        height: 380px;
+        height: 110vw;
         overflow: hidden;
         // background-color: red;
     }
 
     .slider-wrapper .slide-content-wrapper {
-        height: 95px;
+        height: 23vw;
     }
 
     .slider-wrapper .slider-image-wrapper .element:nth-child(2),
@@ -522,6 +538,10 @@ position: relative;
         width: 40px;
         top: 25%;
         bottom: inherit;
+    }
+    .content-wrapper .title-wrapper p{
+        padding: 10px 40px;
+        font-size: .8em;
     }
 
     .slider-wrapper .slider-image-wrapper {
@@ -545,6 +565,16 @@ position: relative;
     .content-wrapper .title-wrapper .title {
         width: 30%;
         font-size: 16px;
+    }
+
+    .slider-wrapper .slide-content-wrapper .button-wrapper button{
+        width: 27vw;
+      
+        font-size: .8em;
+    }
+    .slider-wrapper .slide-content-wrapper .button-wrapper button i{
+        font-size: 1.2em;
+        margin: 3px;
     }
 
     .content-wrapper .content-img-wrapper {
