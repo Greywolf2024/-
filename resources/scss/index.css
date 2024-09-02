@@ -379,6 +379,9 @@ p {
     width: 100%;
     left: 0;
   }
+  .content-wrapper .title-wrapper .title {
+    width: 20%;
+  }
   .category-icon-wrapper {
     width: 100%;
   }
